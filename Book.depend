@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1518084902 source:c:\users\vu\desktop\bookmanager\main.cpp
+	"book.h"
+	<vector>
+
+1518084902 c:\users\vu\desktop\bookmanager\include\book.h
+	<iostream>
+	<string>
+	<vector>
+
+1518084683 source:c:\users\vu\desktop\bookmanager\src\book.cpp
+	"book.h"
+
