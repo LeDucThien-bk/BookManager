@@ -1,13 +1,39 @@
 # depslib dependency file v1.0
-1518084902 source:c:\users\vu\desktop\bookmanager\main.cpp
-	"book.h"
-	<vector>
+1519807470 source:c:\users\vu\desktop\bookmanager\main.cpp
+	"admintools.h"
 
-1518084902 c:\users\vu\desktop\bookmanager\include\book.h
+1519810905 c:\users\vu\desktop\bookmanager\include\book.h
+	<ctime>
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
+
+1519810861 source:c:\users\vu\desktop\bookmanager\src\book.cpp
+	"book.h"
+
+1519720799 source:c:\users\vu\desktop\bookmanager\admintools.cpp
 	<iostream>
 	<string>
 	<vector>
 
-1518084683 source:c:\users\vu\desktop\bookmanager\src\book.cpp
-	"book.h"
+1519720759 source:c:\users\vu\desktop\bookmanager\book.cpp
+	<iostream>
+	<string>
+	<vector>
+
+1519720414 c:\users\vu\desktop\bookmanager\book.cpp
+	<iostream>
+	<string>
+	<vector>
+
+1519811039 source:c:\users\vu\desktop\bookmanager\src\admintools.cpp
+	"admintools.h"
+
+1519811039 c:\users\vu\desktop\bookmanager\include\admintools.h
+	<ctime>
+	<iostream>
+	<string>
+	<vector>
+	<iomanip>
 

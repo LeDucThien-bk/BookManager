@@ -1,3 +1,3 @@
 #include "admintools.h"
-
-class admintools;
+admintools::admintools(){}
+admintools::~admintools(){}

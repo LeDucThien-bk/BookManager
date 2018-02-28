@@ -34,8 +34,10 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/admintools.h" />
 		<Unit filename="include/book.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/admintools.cpp" />
 		<Unit filename="src/book.cpp" />
 		<Extensions>
 			<code_completion />

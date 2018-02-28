@@ -1,9 +1,15 @@
 #ifndef ADMINTOOLS_H
 #define ADMINTOOLS_H
 
-#include "book.h"
+#include <ctime>
+#include <iostream>
+#include <string>
+#include <vector>
+#include <iomanip>
 
-class admintools: public book
+using namespace std;
+
+class admintools
 {
     public:
         admintools();

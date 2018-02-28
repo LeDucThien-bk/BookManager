@@ -1,61 +1,43 @@
 #ifndef BOOK_H
 #define BOOK_H
 
-
+#include <ctime>
 #include <iostream>
 #include <string>
 #include <vector>
+#include <iomanip>
+
 using namespace std;
 
+struct Date{
+        int dd,mm,yy;
+    };
+
 class book{
-
 public:
-    void setname(){
-        cout << "nhap ten sach: ";
-        getline(cin,_name);
-    }
-    void setauthor(){
-        cout << "nhap tac gia: ";
-        getline(cin,_author);
-    }
-    void setpublisher(){
-        cout << "nhap ten nha xuat ban: ";
-        getline(cin, _publisher);
-    }
-    void setstate(){
-        cout << "nhap so luong sach con trong thu vien: ";
-        cin >> _state1;
-        cout << "nhap so luong sach da cho muon: ";
-        cin >> _state2;
-    }
-    void setdate(){
-        cout << "thoi gian nhap sach(dd:mm:yy): ";
-        cin >> date;
-    }
-    string getpublisher(){
-        return _publisher;
-    }
-    string getauthor(){
-        return _author;
-    }
-    string getname(){
-        return _name;
-    }
-    int getstate1(){
-        return _state1;
-    }
-    int getstate2(){
-        return _state2;
-    }
-
-    string getdate(){
-        return _date;
-    }
+    book();
+    virtual ~book();
+    void setname();
+    void setauthor();
+    void setgenre();
+    void setpublisher();
+    void setstate1();
+    void setstate2();
+    void setdate();
+    string getauthor();
+    string getname();
+    string getgenre();
+    string getpublisher();
+    int getstate1();
+    int getstate2();
+    void getdate();
+    void display();
 private:
     string _name, _author,_publisher;
     int _state1;
     int _state2;
-    string _date;
+    string _genre;
+    struct Date _date;
 };
 
 #endif // BOOK_H
